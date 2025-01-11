@@ -1,0 +1,114 @@
+[16:57:28] [ServerMain/INFO]: Building unoptimized datafixer
+[16:57:29] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[16:57:29] [ServerMain/INFO]: Found new data pack file/EnchantEverything-1.19-1.20.4_v2.zip, loading it automatically
+[16:57:29] [ServerMain/INFO]: Found new data pack file/ImprovedPillagerOutpost-v4.zip, loading it automatically
+[16:57:29] [ServerMain/INFO]: Found new data pack file/Incendium_1.19.3_v5.1.6.zip, loading it automatically
+[16:57:29] [ServerMain/INFO]: Found new data pack file/OptimizedGameplay 1.20.zip, loading it automatically
+[16:57:29] [ServerMain/INFO]: Found new data pack file/Optimizer 1.1.0 (1.13-1.21.1).zip, loading it automatically
+[16:57:29] [ServerMain/INFO]: Found new data pack file/TreeCapitator v2.8.zip, loading it automatically
+[16:57:29] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[16:57:29] [ServerMain/INFO]: Found new data pack file/i_wanna_travel-datapack-0.1.zip, loading it automatically
+[16:57:29] [ServerMain/INFO]: Found new data pack file/spawnanimations-v1.10-mc1.17x-1.21x-datapack.zip, loading it automatically
+[16:57:29] [ServerMain/INFO]: Found new data pack file/tectonic-datapack-v2.2.2.zip, loading it automatically
+[16:57:29] [ServerMain/WARN]: ResourcePack: ignored non-lowercase namespace: Durability in ./world/datapacks/EnchantEverything-1.19-1.20.4_v2.zip
+[16:57:29] [ServerMain/WARN]: ResourcePack: ignored non-lowercase namespace: Durability in ./world/datapacks/EnchantEverything-1.19-1.20.4_v2.zip
+[16:57:29] [ServerMain/WARN]: ResourcePack: ignored non-lowercase namespace: Durability in ./world/datapacks/EnchantEverything-1.19-1.20.4_v2.zip
+[16:57:29] [ServerMain/WARN]: ResourcePack: ignored non-lowercase namespace: Unbreakable in ./world/datapacks/EnchantEverything-1.19-1.20.4_v2.zip
+[16:57:29] [ServerMain/WARN]: ResourcePack: ignored non-lowercase namespace: Unbreakable in ./world/datapacks/EnchantEverything-1.19-1.20.4_v2.zip
+[16:57:29] [ServerMain/WARN]: ResourcePack: ignored non-lowercase namespace: Unbreakable in ./world/datapacks/EnchantEverything-1.19-1.20.4_v2.zip
+[16:57:29] [ServerMain/WARN]: ResourcePack: ignored non-lowercase namespace: Unbreakable in ./world/datapacks/EnchantEverything-1.19-1.20.4_v2.zip
+[16:57:29] [ServerMain/WARN]: ResourcePack: ignored non-lowercase namespace: Durability in ./world/datapacks/EnchantEverything-1.19-1.20.4_v2.zip
+[16:57:29] [ServerMain/WARN]: ResourcePack: ignored non-lowercase namespace: Durability in ./world/datapacks/EnchantEverything-1.19-1.20.4_v2.zip
+[16:57:29] [ServerMain/WARN]: ResourcePack: ignored non-lowercase namespace: Durability in ./world/datapacks/EnchantEverything-1.19-1.20.4_v2.zip
+[16:57:29] [ServerMain/WARN]: ResourcePack: ignored non-lowercase namespace: Unbreakable in ./world/datapacks/EnchantEverything-1.19-1.20.4_v2.zip
+[16:57:29] [ServerMain/WARN]: ResourcePack: ignored non-lowercase namespace: Unbreakable in ./world/datapacks/EnchantEverything-1.19-1.20.4_v2.zip
+[16:57:29] [ServerMain/WARN]: ResourcePack: ignored non-lowercase namespace: Unbreakable in ./world/datapacks/EnchantEverything-1.19-1.20.4_v2.zip
+[16:57:29] [ServerMain/WARN]: ResourcePack: ignored non-lowercase namespace: Unbreakable in ./world/datapacks/EnchantEverything-1.19-1.20.4_v2.zip
+[16:57:34] [ServerMain/INFO]: Loaded 7 recipes
+[16:57:34] [ServerMain/ERROR]: Failed to load function spawnanimations:internal/entity/trigger_damage/1_19_4
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 4: Incorrect argument for command at position 8: execute <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 4: Incorrect argument for command at position 8: execute <--[HERE]
+	at net.minecraft.commands.CommandFunction.fromLines(CommandFunction.java:68) ~[?:?]
+	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$3(ServerFunctionLibrary.java:84) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 3 more
+[16:57:34] [ServerMain/ERROR]: Failed to load function optimized:redstone
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Invalid or unknown entity type 'minecraft:redstone_wire' at position 19: ...s @e[type=<--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Invalid or unknown entity type 'minecraft:redstone_wire' at position 19: ...s @e[type=<--[HERE]
+	at net.minecraft.commands.CommandFunction.fromLines(CommandFunction.java:68) ~[?:?]
+	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$3(ServerFunctionLibrary.java:84) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 3 more
+[16:57:35] [Server thread/INFO]: Starting minecraft server version 1.19
+[16:57:35] [Server thread/INFO]: Loading properties
+[16:57:35] [Server thread/INFO]: This server is running Paper version git-Paper-81 (MC: 1.19) (Implementing API version 1.19-R0.1-SNAPSHOT) (Git: 86f87ba)
+[16:57:35] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:57:35] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:57:36] [Server thread/INFO]: Default game type: SURVIVAL
+[16:57:36] [Server thread/INFO]: Generating keypair
+[16:57:36] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:57:36] [Server thread/INFO]: Using epoll channel type
+[16:57:36] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[16:57:36] [Server thread/INFO]: Paper: Using OpenSSL 1.1.x (Linux x86_64) cipher from Velocity.
+[16:57:36] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:57:36] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:57:36] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:57:36] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:57:36] [Server thread/INFO]: Preparing level "world"
+[16:57:37] [Server thread/INFO]: ---- Migration of old nether folder required ----
+[16:57:37] [Server thread/INFO]: Unfortunately due to the way that Minecraft implemented multiworld support in 1.6, Bukkit requires that you move your nether folder to a new location in order to operate correctly.
+[16:57:37] [Server thread/INFO]: We will move this folder for you, but it will mean that you need to move it back should you wish to stop using Bukkit in the future.
+[16:57:37] [Server thread/INFO]: Attempting to move world/DIM-1 to world_nether/DIM-1...
+[16:57:37] [Server thread/INFO]: Success! To restore nether in the future, simply move world_nether/DIM-1 to world/DIM-1
+[16:57:37] [Server thread/INFO]: ---- Migration of old nether folder complete ----
+[16:57:51] [Server thread/INFO]: ---- Migration of old the_end folder required ----
+[16:57:51] [Server thread/INFO]: Unfortunately due to the way that Minecraft implemented multiworld support in 1.6, Bukkit requires that you move your the_end folder to a new location in order to operate correctly.
+[16:57:51] [Server thread/INFO]: We will move this folder for you, but it will mean that you need to move it back should you wish to stop using Bukkit in the future.
+[16:57:51] [Server thread/INFO]: Attempting to move world/DIM1 to world_the_end/DIM1...
+[16:57:51] [Server thread/INFO]: Success! To restore the_end in the future, simply move world_the_end/DIM1 to world/DIM1
+[16:57:51] [Server thread/INFO]: ---- Migration of old the_end folder complete ----
+[16:57:51] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:57:52] [Server thread/INFO]: Time elapsed: 443 ms
+[16:57:52] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[16:57:52] [Server thread/INFO]: Time elapsed: 218 ms
+[16:57:52] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[16:57:52] [Server thread/INFO]: Time elapsed: 255 ms
+[16:57:52] [Server thread/INFO]: Running delayed init tasks
+[16:57:52] [Server thread/INFO]: Done (16.942s)! For help, type "help"
+[16:57:52] [Server thread/INFO]: Timings Reset
+[16:57:55] [User Authenticator #1/INFO]: UUID of player Lucio_tdt is 92d498f1-49d2-3346-b5de-ce9a0bccdee9
+[16:57:55] [Server thread/INFO]: Lucio_tdt joined the game
+[16:57:56] [Server thread/INFO]: Lucio_tdt[/127.160.83.71:47009] logged in with entity id 5 at ([world]-53.5, 77.0, 38.5)
+[16:58:23] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPosition{x=-286, y=168, z=-18}
+[16:58:26] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPosition{x=-218, y=10, z=-283}
+[16:58:27] [Worker-Main-1/ERROR]: Hanging entity at invalid position: BlockPosition{x=-286, y=168, z=-18}
+[16:59:03] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Paratrooper'/972, uuid='b9b40bf6-11f2-4a02-b708-15a4d13ee12a', l='ServerLevel[world_nether]', x=-24.41, y=62.00, z=179.30, cpos=[-2, 11], tl=192, v=true] died: Piglin Paratrooper tried to swim in lava
+[17:00:41] [Server thread/INFO]: Lucio_tdt has made the advancement [Suit Up]
+[17:00:46] [Server thread/INFO]: Lucio_tdt has made the advancement [Isn't It Iron Pick]
+[17:01:01] [Server thread/INFO]: Lucio_tdt has made the advancement [Stone Age]
+[17:01:45] [Server thread/INFO]: Lucio_tdt has made the advancement [The Cutest Predator]
+[17:02:20] [Server thread/INFO]: CONSOLE: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
+[17:02:27] [Server thread/INFO]: Made denercraft a server operator
+[17:05:30] [User Authenticator #2/INFO]: UUID of player denercraft is b09a19d2-d4d8-3eae-8b8a-ab0c3f6c210b
+[17:05:30] [Server thread/INFO]: denercraft joined the game
+[17:05:30] [Server thread/INFO]: denercraft[/127.158.216.55:38339] logged in with entity id 2705 at ([world]-72.5, 72.0, 45.5)
+[17:06:34] [Server thread/INFO]: denercraft issued server command: /datapack enable
+[17:06:37] [Server thread/INFO]: Lucio_tdt has made the advancement [Sweet Dreams]
+[17:06:53] [Async Chat Thread - #0/INFO]: <Lucio_tdt> zzzzzzzzz
+[17:06:54] [Async Chat Thread - #0/INFO]: <Lucio_tdt> zzzzzzzz
+[17:07:08] [Server thread/INFO]: denercraft issued server command: /time set night
+[17:07:08] [Server thread/INFO]: [denercraft: Set the time to 13000]
+[17:07:12] [Server thread/INFO]: denercraft issued server command: /time set day
+[17:07:12] [Server thread/INFO]: [denercraft: Set the time to 1000]
