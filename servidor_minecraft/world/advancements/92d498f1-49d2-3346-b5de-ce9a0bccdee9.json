@@ -17,17 +17,17 @@
     },
     "done": true
   },
-  "incendium:technical/on_block": {
-    "criteria": {
-      "log_spam_fixer": "2025-01-11 17:48:59 +0000"
-    },
-    "done": false
-  },
   "minecraft:recipes/building_blocks/purple_wool": {
     "criteria": {
       "has_white_wool": "2025-01-11 17:40:04 +0000"
     },
     "done": true
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2025-01-11 18:03:59 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/tools/wooden_axe": {
     "criteria": {
@@ -185,6 +185,12 @@
     },
     "done": true
   },
+  "minecraft:story/shiny_gear": {
+    "criteria": {
+      "diamond_leggings": "2025-01-11 17:57:28 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/iron_block": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 17:11:13 +0000"
@@ -205,7 +211,7 @@
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-11 17:48:59 +0000"
+      "log_spam_fixer": "2025-01-11 18:03:59 +0000"
     },
     "done": false
   },
@@ -350,7 +356,8 @@
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
       "cooked_mutton": "2025-01-11 17:15:20 +0000",
-      "cooked_beef": "2025-01-11 17:06:04 +0000"
+      "cooked_beef": "2025-01-11 17:06:04 +0000",
+      "cooked_chicken": "2025-01-11 18:01:21 +0000"
     },
     "done": false
   },
@@ -566,7 +573,7 @@
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-01-11 17:48:59 +0000"
+      "log_spam_fixer": "2025-01-11 18:03:59 +0000"
     },
     "done": false
   },
@@ -602,7 +609,7 @@
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-01-11 17:48:59 +0000"
+      "log_spam_fixer": "2025-01-11 18:03:59 +0000"
     },
     "done": false
   },
@@ -658,6 +665,12 @@
       "slept_in_bed": "2025-01-11 17:06:37 +0000"
     },
     "done": true
+  },
+  "incendium:technical/on_hit": {
+    "criteria": {
+      "target": "2025-01-11 18:04:44 +0000"
+    },
+    "done": false
   },
   "minecraft:recipes/building_blocks/spruce_planks": {
     "criteria": {
@@ -775,13 +788,13 @@
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-11 17:48:59 +0000"
+      "log_spam_fixer": "2025-01-11 18:03:59 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-01-11 17:48:59 +0000"
+      "log_spam_fixer": "2025-01-11 18:03:59 +0000"
     },
     "done": false
   },
@@ -817,7 +830,7 @@
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-01-11 17:48:59 +0000"
+      "log_spam_fixer": "2025-01-11 18:03:59 +0000"
     },
     "done": false
   },
@@ -841,7 +854,7 @@
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-01-11 17:48:59 +0000"
+      "log_spam_fixer": "2025-01-11 18:03:59 +0000"
     },
     "done": false
   },
@@ -883,9 +896,10 @@
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2025-01-11 17:48:59 +0000"
+      "requirement": "2025-01-11 18:04:04 +0000",
+      "log_spam_fixer": "2025-01-11 18:03:59 +0000"
     },
-    "done": false
+    "done": true
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
@@ -897,7 +911,7 @@
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-11 17:48:59 +0000"
+      "log_spam_fixer": "2025-01-11 18:03:59 +0000"
     },
     "done": false
   },
@@ -981,7 +995,7 @@
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-01-11 17:48:59 +0000"
+      "log_spam_fixer": "2025-01-11 18:03:59 +0000"
     },
     "done": false
   },
@@ -1047,7 +1061,7 @@
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-01-11 17:48:59 +0000"
+      "log_spam_fixer": "2025-01-11 18:03:59 +0000"
     },
     "done": false
   },

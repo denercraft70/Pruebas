@@ -763,3 +763,7 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2:
 [17:56:57] [Server thread/INFO]: denercraft issued server command: /gamemode survival
 [17:56:57] [Server thread/INFO]: [denercraft: Set own game mode to Survival Mode]
 [17:57:28] [Server thread/INFO]: Lucio_tdt has made the advancement [Cover Me with Diamonds]
+[17:58:40] [Server thread/INFO]: denercraft issued server command: /datapack list enabled
+[18:01:11] [Server thread/INFO]: PavoLoco lost connection: Disconnected
+[18:01:11] [Server thread/INFO]: PavoLoco left the game
+[18:06:12] [Server thread/INFO]: denercraft was slain by Lucio_tdt
