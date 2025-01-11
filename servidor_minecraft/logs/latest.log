@@ -733,3 +733,33 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2:
 [17:46:46] [Server thread/INFO]: denercraft issued server command: /tp pavoloco denercraft
 [17:46:46] [Server thread/INFO]: [denercraft: Teleported PavoLoco to denercraft]
 [17:47:01] [Server thread/INFO]: denercraft has made the advancement [Cover Me with Diamonds]
+[17:49:07] [Server thread/INFO]: Lucio_tdt lost connection: Timed out
+[17:49:07] [Server thread/INFO]: Lucio_tdt left the game
+[17:51:04] [Server thread/INFO]: denercraft issued server command: /tp denercraft PavoLoco
+[17:51:04] [Server thread/INFO]: [denercraft: Teleported denercraft to PavoLoco]
+[17:51:22] [Server thread/INFO]: PavoLoco has made the advancement [Suit Up]
+[17:52:27] [Server thread/INFO]: denercraft issued server command: /tp -210 70 -259
+[17:52:27] [Server thread/INFO]: [denercraft: Teleported denercraft to -209.500000, 70.000000, -258.500000]
+[17:52:35] [Server thread/INFO]: denercraft issued server command: /gamemode creative
+[17:52:35] [Server thread/INFO]: [denercraft: Set own game mode to Creative Mode]
+[17:52:52] [Server thread/INFO]: denercraft issued server command: /datapack enable
+[17:53:01] [Server thread/INFO]: denercraft issued server command: /datapack enable yes first
+[17:53:29] [Server thread/INFO]: denercraft issued server command: /plugins
+[17:53:40] [Server thread/INFO]: denercraft issued server command: /spigot
+[17:54:20] [Server thread/INFO]: denercraft issued server command: /minecraft:datapack
+[17:54:46] [Server thread/INFO]: denercraft issued server command: /tp pavoloco denercraft
+[17:54:46] [Server thread/INFO]: [denercraft: Teleported PavoLoco to denercraft]
+[17:54:50] [Server thread/INFO]: denercraft issued server command: /gamemode survival
+[17:54:50] [Server thread/INFO]: [denercraft: Set own game mode to Survival Mode]
+[17:54:56] [User Authenticator #5/INFO]: UUID of player Lucio_tdt is 92d498f1-49d2-3346-b5de-ce9a0bccdee9
+[17:54:57] [Server thread/INFO]: Lucio_tdt joined the game
+[17:54:57] [Server thread/INFO]: Lucio_tdt[/127.160.83.71:44147] logged in with entity id 38468 at ([world]-158.76249998807907, 71.5625, -329.8011422392732)
+[17:55:37] [Async Chat Thread - #4/INFO]: <denercraft> bro
+[17:55:41] [Async Chat Thread - #4/INFO]: <denercraft> pucio
+[17:56:04] [Server thread/INFO]: denercraft issued server command: /gamemode creative
+[17:56:04] [Server thread/INFO]: [denercraft: Set own game mode to Creative Mode]
+[17:56:34] [Server thread/INFO]: denercraft issued server command: /tp pavoloco Lucio_tdt
+[17:56:34] [Server thread/INFO]: [denercraft: Teleported PavoLoco to Lucio_tdt]
+[17:56:57] [Server thread/INFO]: denercraft issued server command: /gamemode survival
+[17:56:57] [Server thread/INFO]: [denercraft: Set own game mode to Survival Mode]
+[17:57:28] [Server thread/INFO]: Lucio_tdt has made the advancement [Cover Me with Diamonds]
