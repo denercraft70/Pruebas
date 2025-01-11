@@ -19,7 +19,7 @@
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2025-01-11 17:35:59 +0000"
+      "log_spam_fixer": "2025-01-11 17:43:59 +0000"
     },
     "done": false
   },
@@ -217,7 +217,7 @@
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-11 17:35:59 +0000"
+      "log_spam_fixer": "2025-01-11 17:43:59 +0000"
     },
     "done": false
   },
@@ -257,6 +257,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2025-01-11 17:38:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/transportation/spruce_boat": {
     "criteria": {
       "in_water": "2025-01-11 17:13:44 +0000"
@@ -284,6 +290,12 @@
   "minecraft:recipes/tools/stone_shovel": {
     "criteria": {
       "has_cobblestone": "2025-01-11 17:09:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_banner": {
+    "criteria": {
+      "has_gray_wool": "2025-01-11 17:42:28 +0000"
     },
     "done": true
   },
@@ -408,6 +420,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/gray_carpet": {
+    "criteria": {
+      "has_gray_wool": "2025-01-11 17:42:28 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/bucket": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 17:18:22 +0000"
@@ -417,6 +435,12 @@
   "minecraft:recipes/combat/iron_boots": {
     "criteria": {
       "has_iron_ingot": "2025-01-11 17:18:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_bed": {
+    "criteria": {
+      "has_gray_wool": "2025-01-11 17:42:28 +0000"
     },
     "done": true
   },
@@ -504,6 +528,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2025-01-11 17:37:12 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/cooked_porkchop_from_smoking": {
     "criteria": {
       "has_porkchop": "2025-01-11 17:18:34 +0000"
@@ -552,6 +582,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_nugget_from_blasting": {
+    "criteria": {
+      "has_iron_leggings": "2025-01-11 17:38:28 +0000"
+    },
+    "done": true
+  },
   "incendium:technical/using/trailblazer": {
     "criteria": {
       "log_spam_fixer": "2025-01-11 17:05:30 +0000"
@@ -584,7 +620,7 @@
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-01-11 17:35:59 +0000"
+      "log_spam_fixer": "2025-01-11 17:43:59 +0000"
     },
     "done": false
   },
@@ -603,6 +639,12 @@
   "minecraft:recipes/transportation/acacia_chest_boat": {
     "criteria": {
       "has_boat": "2025-01-11 17:22:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_leggings": "2025-01-11 17:38:28 +0000"
     },
     "done": true
   },
@@ -626,7 +668,7 @@
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-01-11 17:35:59 +0000"
+      "log_spam_fixer": "2025-01-11 17:43:59 +0000"
     },
     "done": false
   },
@@ -664,6 +706,7 @@
       "minecraft:deep_lukewarm_ocean": "2025-01-11 17:29:15 +0000",
       "minecraft:frozen_peaks": "2025-01-11 17:31:43 +0000",
       "minecraft:old_growth_birch_forest": "2025-01-11 17:31:07 +0000",
+      "minecraft:deep_dark": "2025-01-11 17:38:39 +0000",
       "minecraft:meadow": "2025-01-11 17:31:21 +0000",
       "minecraft:savanna": "2025-01-11 17:30:28 +0000",
       "minecraft:plains": "2025-01-11 17:16:17 +0000"
@@ -816,13 +859,13 @@
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-11 17:35:59 +0000"
+      "log_spam_fixer": "2025-01-11 17:43:59 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-01-11 17:35:59 +0000"
+      "log_spam_fixer": "2025-01-11 17:43:59 +0000"
     },
     "done": false
   },
@@ -852,7 +895,7 @@
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-01-11 17:35:59 +0000"
+      "log_spam_fixer": "2025-01-11 17:43:59 +0000"
     },
     "done": false
   },
@@ -876,7 +919,7 @@
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-01-11 17:35:59 +0000"
+      "log_spam_fixer": "2025-01-11 17:43:59 +0000"
     },
     "done": false
   },
@@ -912,15 +955,21 @@
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2025-01-11 17:35:59 +0000"
+      "log_spam_fixer": "2025-01-11 17:43:59 +0000"
     },
     "done": false
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-11 17:35:59 +0000"
+      "log_spam_fixer": "2025-01-11 17:43:59 +0000"
     },
     "done": false
+  },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2025-01-11 17:38:08 +0000"
+    },
+    "done": true
   },
   "minecraft:recipes/combat/golden_leggings": {
     "criteria": {
@@ -949,6 +998,12 @@
   "minecraft:recipes/decorations/brown_bed": {
     "criteria": {
       "has_brown_wool": "2025-01-11 17:30:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_nugget_from_smelting": {
+    "criteria": {
+      "has_iron_leggings": "2025-01-11 17:38:28 +0000"
     },
     "done": true
   },
@@ -984,7 +1039,7 @@
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-01-11 17:35:59 +0000"
+      "log_spam_fixer": "2025-01-11 17:43:59 +0000"
     },
     "done": false
   },
@@ -1050,7 +1105,7 @@
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-01-11 17:35:59 +0000"
+      "log_spam_fixer": "2025-01-11 17:43:59 +0000"
     },
     "done": false
   },

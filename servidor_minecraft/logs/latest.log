@@ -691,3 +691,45 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2:
 [17:36:45] [Server thread/INFO]: [denercraft: Teleported denercraft to PavoLoco]
 [17:37:10] [Server thread/INFO]: PavoLoco has made the advancement [Sneak 100]
 [17:37:12] [Server thread/INFO]: denercraft has made the advancement [Sneak 100]
+[17:38:28] [Server thread/INFO]: denercraft has made the advancement [Suit Up]
+[17:38:45] [Async Chat Thread - #2/INFO]: <Lucio_tdt> ./kick denercraft
+[17:38:55] [Async Chat Thread - #2/INFO]: <Lucio_tdt> ./kick PavoLoco
+[17:41:46] [Server thread/INFO]: denercraft issued server command: /tp PavoLoco Lucio_tdt
+[17:41:46] [Server thread/INFO]: [denercraft: Teleported PavoLoco to Lucio_tdt]
+[17:42:52] [Server thread/INFO]: denercraft issued server command: /tp PavoLoco denercraft
+[17:42:52] [Server thread/INFO]: [denercraft: Teleported PavoLoco to denercraft]
+[17:43:14] [Async Chat Thread - #3/INFO]: <Lucio_tdt> ./kick PavoLoco
+[17:43:16] [Async Chat Thread - #3/INFO]: <Lucio_tdt> ./kick denercraft
+[17:43:21] [Async Chat Thread - #3/INFO]: <Lucio_tdt> ./kick denercraft
+[17:43:25] [Async Chat Thread - #3/INFO]: <Lucio_tdt> ./kick PavoLoco
+[17:43:30] [Async Chat Thread - #3/INFO]: <Lucio_tdt> ./kick denercraft
+[17:43:37] [Async Chat Thread - #3/INFO]: <Lucio_tdt> ./kick denercraft
+[17:43:43] [Async Chat Thread - #3/INFO]: <Lucio_tdt> ./kick denercraft
+[17:43:46] [Async Chat Thread - #3/INFO]: <Lucio_tdt> ./kick denercraft
+[17:43:47] [Async Chat Thread - #3/INFO]: <Lucio_tdt> ./kick denercraft
+[17:43:50] [Async Chat Thread - #3/INFO]: <Lucio_tdt> ./kick denercraft
+[17:43:55] [Async Chat Thread - #3/INFO]: <Lucio_tdt> ./kick PavoLoco
+[17:43:56] [Async Chat Thread - #3/INFO]: <Lucio_tdt> ./kick PavoLoco
+[17:43:57] [Async Chat Thread - #3/INFO]: <Lucio_tdt> ./kick PavoLoco
+[17:43:58] [Async Chat Thread - #3/INFO]: <Lucio_tdt> ./kick denercraft
+[17:43:59] [Async Chat Thread - #3/INFO]: <Lucio_tdt> ./kick denercraft
+[17:44:00] [Async Chat Thread - #3/INFO]: <Lucio_tdt> ./kick denercraft
+[17:44:01] [Async Chat Thread - #3/INFO]: <Lucio_tdt> ./kick PavoLoco
+[17:44:02] [Async Chat Thread - #3/INFO]: <Lucio_tdt> ./kick denercraft
+[17:44:47] [Server thread/INFO]: PavoLoco lost connection: Disconnected
+[17:44:47] [Server thread/INFO]: PavoLoco left the game
+[17:44:48] [Server thread/INFO]: denercraft lost connection: Disconnected
+[17:44:48] [Server thread/INFO]: denercraft left the game
+[17:44:57] [User Authenticator #4/INFO]: UUID of player denercraft is b09a19d2-d4d8-3eae-8b8a-ab0c3f6c210b
+[17:44:57] [Server thread/INFO]: denercraft joined the game
+[17:44:57] [Server thread/INFO]: denercraft[/127.158.216.55:60781] logged in with entity id 36340 at ([world]-189.89612128480724, -50.0, -174.406680909772)
+[17:45:00] [User Authenticator #4/INFO]: UUID of player PavoLoco is 662dc439-e156-363e-a35c-7bb67826e6e2
+[17:45:00] [Server thread/INFO]: PavoLoco joined the game
+[17:45:00] [Server thread/INFO]: PavoLoco[/127.226.223.37:33937] logged in with entity id 36361 at ([world]-179.88106739740041, -48.9375, -162.83677924493392)
+[17:45:34] [Server thread/INFO]: PavoLoco has made the advancement [Cover Me with Diamonds]
+[17:45:42] [Server thread/INFO]: Lucio_tdt was blown up by Creeper
+[17:45:46] [Server thread/INFO]: denercraft issued server command: /tp pavoloco Lucio_tdt
+[17:45:46] [Server thread/INFO]: [denercraft: Teleported PavoLoco to Lucio_tdt]
+[17:46:46] [Server thread/INFO]: denercraft issued server command: /tp pavoloco denercraft
+[17:46:46] [Server thread/INFO]: [denercraft: Teleported PavoLoco to denercraft]
+[17:47:01] [Server thread/INFO]: denercraft has made the advancement [Cover Me with Diamonds]
