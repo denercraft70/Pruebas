@@ -13,7 +13,7 @@
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2025-01-11 17:22:02 +0000"
+      "log_spam_fixer": "2025-01-11 17:33:32 +0000"
     },
     "done": false
   },
@@ -157,7 +157,7 @@
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-11 17:22:02 +0000"
+      "log_spam_fixer": "2025-01-11 17:33:32 +0000"
     },
     "done": false
   },
@@ -176,6 +176,12 @@
   "minecraft:recipes/tools/wooden_shovel": {
     "criteria": {
       "has_stick": "2025-01-11 17:08:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/red_dye_from_poppy": {
+    "criteria": {
+      "has_poppy": "2025-01-11 17:32:58 +0000"
     },
     "done": true
   },
@@ -206,6 +212,12 @@
   "minecraft:recipes/building_blocks/coal_block": {
     "criteria": {
       "has_coal": "2025-01-11 17:07:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2025-01-11 17:33:07 +0000"
     },
     "done": true
   },
@@ -470,7 +482,7 @@
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-01-11 17:22:02 +0000"
+      "log_spam_fixer": "2025-01-11 17:33:32 +0000"
     },
     "done": false
   },
@@ -500,7 +512,7 @@
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-01-11 17:22:02 +0000"
+      "log_spam_fixer": "2025-01-11 17:33:32 +0000"
     },
     "done": false
   },
@@ -667,13 +679,13 @@
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-11 17:22:02 +0000"
+      "log_spam_fixer": "2025-01-11 17:33:32 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-01-11 17:22:02 +0000"
+      "log_spam_fixer": "2025-01-11 17:33:32 +0000"
     },
     "done": false
   },
@@ -709,7 +721,7 @@
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-01-11 17:22:02 +0000"
+      "log_spam_fixer": "2025-01-11 17:33:32 +0000"
     },
     "done": false
   },
@@ -727,7 +739,7 @@
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-01-11 17:22:02 +0000"
+      "log_spam_fixer": "2025-01-11 17:33:32 +0000"
     },
     "done": false
   },
@@ -769,7 +781,7 @@
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2025-01-11 17:22:02 +0000"
+      "log_spam_fixer": "2025-01-11 17:33:32 +0000"
     },
     "done": false
   },
@@ -783,7 +795,7 @@
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-01-11 17:22:02 +0000"
+      "log_spam_fixer": "2025-01-11 17:33:32 +0000"
     },
     "done": false
   },
@@ -855,7 +867,7 @@
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-01-11 17:22:02 +0000"
+      "log_spam_fixer": "2025-01-11 17:33:32 +0000"
     },
     "done": false
   },
@@ -909,13 +921,19 @@
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-01-11 17:22:02 +0000"
+      "log_spam_fixer": "2025-01-11 17:33:32 +0000"
     },
     "done": false
   },
   "minecraft:recipes/combat/golden_boots": {
     "criteria": {
       "has_gold_ingot": "2025-01-11 17:05:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2025-01-11 17:31:35 +0000"
     },
     "done": true
   },
