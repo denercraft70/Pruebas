@@ -112,3 +112,158 @@ Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2:
 [17:07:08] [Server thread/INFO]: [denercraft: Set the time to 13000]
 [17:07:12] [Server thread/INFO]: denercraft issued server command: /time set day
 [17:07:12] [Server thread/INFO]: [denercraft: Set the time to 1000]
+[17:07:33] [Server thread/INFO]: denercraft issued server command: /datapack list
+[17:07:48] [Server thread/INFO]: denercraft issued server command: /reload
+[17:07:48] [Server thread/INFO]: denercraft: Are you sure you wish to reload your server? Doing so may cause bugs and memory leaks. It is recommended to restart instead of using /reload. To confirm, please type /reload confirm
+[17:07:54] [Server thread/INFO]: denercraft issued server command: /reload confirm
+[17:07:54] [Server thread/INFO]: denercraft: Please note that this command is not supported and may cause issues when using some plugins.
+[17:07:54] [Server thread/INFO]: denercraft: If you encounter any issues please use the /stop command to restart your server.
+[17:07:54] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[17:07:54] [Server thread/INFO]: Using 4 threads for Netty based IO
+[17:07:54] [Server thread/WARN]: ResourcePack: ignored non-lowercase namespace: Durability in ./world/datapacks/EnchantEverything-1.19-1.20.4_v2.zip
+[17:07:54] [Server thread/WARN]: ResourcePack: ignored non-lowercase namespace: Durability in ./world/datapacks/EnchantEverything-1.19-1.20.4_v2.zip
+[17:07:54] [Server thread/WARN]: ResourcePack: ignored non-lowercase namespace: Durability in ./world/datapacks/EnchantEverything-1.19-1.20.4_v2.zip
+[17:07:54] [Server thread/WARN]: ResourcePack: ignored non-lowercase namespace: Unbreakable in ./world/datapacks/EnchantEverything-1.19-1.20.4_v2.zip
+[17:07:54] [Server thread/WARN]: ResourcePack: ignored non-lowercase namespace: Unbreakable in ./world/datapacks/EnchantEverything-1.19-1.20.4_v2.zip
+[17:07:54] [Server thread/WARN]: ResourcePack: ignored non-lowercase namespace: Unbreakable in ./world/datapacks/EnchantEverything-1.19-1.20.4_v2.zip
+[17:07:54] [Server thread/WARN]: ResourcePack: ignored non-lowercase namespace: Unbreakable in ./world/datapacks/EnchantEverything-1.19-1.20.4_v2.zip
+[17:07:54] [Server thread/WARN]: ResourcePack: ignored non-lowercase namespace: Durability in ./world/datapacks/EnchantEverything-1.19-1.20.4_v2.zip
+[17:07:54] [Server thread/WARN]: ResourcePack: ignored non-lowercase namespace: Durability in ./world/datapacks/EnchantEverything-1.19-1.20.4_v2.zip
+[17:07:54] [Server thread/WARN]: ResourcePack: ignored non-lowercase namespace: Durability in ./world/datapacks/EnchantEverything-1.19-1.20.4_v2.zip
+[17:07:54] [Server thread/WARN]: ResourcePack: ignored non-lowercase namespace: Unbreakable in ./world/datapacks/EnchantEverything-1.19-1.20.4_v2.zip
+[17:07:54] [Server thread/WARN]: ResourcePack: ignored non-lowercase namespace: Unbreakable in ./world/datapacks/EnchantEverything-1.19-1.20.4_v2.zip
+[17:07:54] [Server thread/WARN]: ResourcePack: ignored non-lowercase namespace: Unbreakable in ./world/datapacks/EnchantEverything-1.19-1.20.4_v2.zip
+[17:07:54] [Server thread/WARN]: ResourcePack: ignored non-lowercase namespace: Unbreakable in ./world/datapacks/EnchantEverything-1.19-1.20.4_v2.zip
+[17:07:55] [Server thread/INFO]: Loaded 7 recipes
+[17:07:55] [Server thread/ERROR]: Failed to load function spawnanimations:internal/entity/trigger_damage/1_19_4
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 4: Incorrect argument for command at position 8: execute <--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 4: Incorrect argument for command at position 8: execute <--[HERE]
+	at net.minecraft.commands.CommandFunction.fromLines(CommandFunction.java:68) ~[?:?]
+	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$3(ServerFunctionLibrary.java:84) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 3 more
+[17:07:55] [Server thread/ERROR]: Failed to load function optimized:redstone
+java.util.concurrent.CompletionException: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Invalid or unknown entity type 'minecraft:redstone_wire' at position 19: ...s @e[type=<--[HERE]
+	at java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:315) ~[?:?]
+	at java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:320) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1770) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+Caused by: java.lang.IllegalArgumentException: Whilst parsing command on line 2: Invalid or unknown entity type 'minecraft:redstone_wire' at position 19: ...s @e[type=<--[HERE]
+	at net.minecraft.commands.CommandFunction.fromLines(CommandFunction.java:68) ~[?:?]
+	at net.minecraft.server.ServerFunctionLibrary.lambda$reload$3(ServerFunctionLibrary.java:84) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	... 3 more
+[17:07:55] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[17:07:55] [Server thread/INFO]: denercraft: Reload complete.
+[17:07:55] [Server thread/INFO]: Timings Reset
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Archer'/672, uuid='4776d4ca-5f38-4638-8b20-0be53d4e938c', l='ServerLevel[world_nether]', x=-0.70, y=72.00, z=113.67, cpos=[-1, 7], tl=11262, v=true] died: Piglin Archer fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Knight'/674, uuid='40ca981b-db30-4792-bdf8-5f2742f6a390', l='ServerLevel[world_nether]', x=13.70, y=36.00, z=119.30, cpos=[0, 7], tl=11247, v=true] died: Piglin Knight fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Knight'/676, uuid='4fb792b9-b3c8-44a7-a339-009278adcbf9', l='ServerLevel[world_nether]', x=12.70, y=45.00, z=127.70, cpos=[0, 7], tl=11247, v=true] died: Piglin Knight fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Scout'/677, uuid='90587d14-d6b5-4233-a716-5d18087921bb', l='ServerLevel[world_nether]', x=4.30, y=45.00, z=121.30, cpos=[0, 7], tl=11247, v=true] died: Piglin Scout fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Alchemist'/678, uuid='76f701d5-a535-4583-97ff-43dcce8577a2', l='ServerLevel[world_nether]', x=4.30, y=45.00, z=127.70, cpos=[0, 7], tl=11247, v=true] died: Piglin Alchemist fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Paratrooper'/675, uuid='7def4fc3-7b2a-40a1-83bd-f6c49686b2b2', l='ServerLevel[world_nether]', x=8.59, y=62.00, z=114.30, cpos=[0, 7], tl=11247, v=true] died: Piglin Paratrooper fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Knight'/679, uuid='7295a65e-84b2-40df-aced-adf781217bb0', l='ServerLevel[world_nether]', x=10.30, y=55.00, z=126.70, cpos=[0, 7], tl=11247, v=true] died: Piglin Knight fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Knight'/680, uuid='105e0121-79cf-4742-b1c4-55e5f24e2b83', l='ServerLevel[world_nether]', x=6.70, y=55.00, z=122.30, cpos=[0, 7], tl=11247, v=true] died: Piglin Knight fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Paratrooper'/721, uuid='b57b3b24-50c1-4098-94e5-974e9bcfb259', l='ServerLevel[world_nether]', x=-1.70, y=62.00, z=137.41, cpos=[-1, 8], tl=11181, v=true] died: Piglin Paratrooper fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Knight'/722, uuid='654016a9-08c1-4014-991c-b4e8be9dc0ec', l='ServerLevel[world_nether]', x=-1.70, y=62.00, z=140.70, cpos=[-1, 8], tl=11181, v=true] died: Piglin Knight fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Knight'/723, uuid='479237aa-61c8-4c1f-83cb-bb5f88f5301a', l='ServerLevel[world_nether]', x=3.30, y=36.00, z=129.70, cpos=[0, 8], tl=11181, v=true] died: Piglin Knight fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityHoglin['Dinnerbone'/724, uuid='85250926-4219-4e23-99e7-455f2845f5dc', l='ServerLevel[world_nether]', x=8.50, y=49.00, z=139.75, cpos=[0, 8], tl=11181, v=true] died: Dinnerbone fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Knight'/756, uuid='a3e075c4-d115-42c1-85a2-86bff653f49c', l='ServerLevel[world_nether]', x=19.30, y=45.00, z=121.30, cpos=[1, 7], tl=11156, v=true] died: Piglin Knight fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Alchemist'/757, uuid='7196152e-32df-4c7b-8270-09d9486ab3d6', l='ServerLevel[world_nether]', x=27.70, y=45.00, z=121.30, cpos=[1, 7], tl=11156, v=true] died: Piglin Alchemist fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Scout'/758, uuid='20ffb748-d3d1-4809-9c04-b8847eaf9bab', l='ServerLevel[world_nether]', x=27.70, y=45.00, z=127.70, cpos=[1, 7], tl=11156, v=true] died: Piglin Scout fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Paratrooper'/755, uuid='8c0724e3-ae14-4228-8858-20a195db46dd', l='ServerLevel[world_nether]', x=20.59, y=62.00, z=114.30, cpos=[1, 7], tl=11156, v=true] died: Piglin Paratrooper fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Knight'/762, uuid='45aa7f89-767b-4a26-9960-d364046d3827', l='ServerLevel[world_nether]', x=22.70, y=55.00, z=126.70, cpos=[1, 7], tl=11156, v=true] died: Piglin Knight fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Knight'/761, uuid='02e7486a-4bd9-4c98-8ef0-7f03fc8edc2a', l='ServerLevel[world_nether]', x=25.30, y=67.00, z=121.30, cpos=[1, 7], tl=11156, v=true] died: Piglin Knight fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Knight'/763, uuid='0adbf6de-bdab-4e56-9012-39e5246fd39d', l='ServerLevel[world_nether]', x=25.30, y=69.00, z=126.70, cpos=[1, 7], tl=11156, v=true] died: Piglin Knight fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Archer'/760, uuid='ea510279-91d7-4547-9828-04ee7424451a', l='ServerLevel[world_nether]', x=23.70, y=83.00, z=120.33, cpos=[1, 7], tl=11156, v=true] died: Piglin Archer fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Archer'/768, uuid='187e0f85-d788-4189-acbd-5f12de0b9caf', l='ServerLevel[world_nether]', x=23.30, y=83.00, z=128.67, cpos=[1, 8], tl=11154, v=true] died: Piglin Archer fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Paratrooper'/790, uuid='33ccb8d7-e53d-4f1d-ab99-587076bc5132', l='ServerLevel[world_nether]', x=-27.41, y=62.00, z=144.30, cpos=[-2, 9], tl=11084, v=true] died: Piglin Paratrooper fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Knight'/791, uuid='86d33797-9383-4792-91f4-68b7fe2dfd88', l='ServerLevel[world_nether]', x=-16.30, y=62.00, z=144.70, cpos=[-2, 9], tl=11084, v=true] died: Piglin Knight fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Paratrooper'/792, uuid='453f699b-6d4c-46c4-94de-316e45bbc218', l='ServerLevel[world_nether]', x=-31.70, y=62.00, z=155.41, cpos=[-2, 9], tl=11084, v=true] died: Piglin Paratrooper fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Pyromancer'/807, uuid='caa4a289-59ea-4d39-a987-6f04921cb92a', l='ServerLevel[world_nether]', x=23.69, y=36.00, z=154.54, cpos=[1, 9], tl=11078, v=true] died: Piglin Pyromancer fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Knight'/808, uuid='c6ff6ce1-d74e-47e1-a013-7f7f32d6a817', l='ServerLevel[world_nether]', x=17.30, y=36.00, z=145.30, cpos=[1, 9], tl=11078, v=true] died: Piglin Knight fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Knight'/825, uuid='6d9e7d0b-cf69-4f28-8586-b7ad5ac4ed82', l='ServerLevel[world_nether]', x=33.30, y=36.00, z=119.30, cpos=[2, 7], tl=11051, v=true] died: Piglin Knight fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Paratrooper'/826, uuid='863ecd3c-c788-4908-870c-7f1b4596cd92', l='ServerLevel[world_nether]', x=41.59, y=62.00, z=114.30, cpos=[2, 7], tl=11051, v=true] died: Piglin Paratrooper fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Paratrooper'/827, uuid='946a6bab-e215-4f03-bdcb-ba0c166a8654', l='ServerLevel[world_nether]', x=35.59, y=62.00, z=114.30, cpos=[2, 7], tl=11051, v=true] died: Piglin Paratrooper fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Paratrooper'/828, uuid='469e3ce5-db5d-4ac5-9173-38c1db60a1e5', l='ServerLevel[world_nether]', x=40.59, y=62.00, z=114.30, cpos=[2, 7], tl=11051, v=true] died: Piglin Paratrooper fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Knight'/829, uuid='56efd777-1c51-4d70-a333-8c7228a81aa5', l='ServerLevel[world_nether]', x=38.70, y=36.00, z=135.70, cpos=[2, 8], tl=11050, v=true] died: Piglin Knight fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Knight'/830, uuid='dbd65fbe-2238-4aab-b122-efebfecf8a2c', l='ServerLevel[world_nether]', x=42.30, y=36.00, z=154.70, cpos=[2, 9], tl=11050, v=true] died: Piglin Knight fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Scout'/831, uuid='36cc49e4-dc3c-4a55-b7bd-2ec664f308f4', l='ServerLevel[world_nether]', x=35.30, y=45.00, z=158.70, cpos=[2, 9], tl=11050, v=true] died: Piglin Scout fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Alchemist'/832, uuid='e9c02bfa-036f-43df-b049-2909a2465405', l='ServerLevel[world_nether]', x=41.70, y=45.00, z=158.70, cpos=[2, 9], tl=11050, v=true] died: Piglin Alchemist fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Knight'/834, uuid='148617dd-0b7c-427a-8f19-c04637d6dd2b', l='ServerLevel[world_nether]', x=41.70, y=45.00, z=150.30, cpos=[2, 9], tl=11050, v=true] died: Piglin Knight fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Knight'/835, uuid='adce8e52-5717-4f13-8a5e-7fc708193cc4', l='ServerLevel[world_nether]', x=36.70, y=55.00, z=151.70, cpos=[2, 9], tl=11050, v=true] died: Piglin Knight fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Knight'/836, uuid='6fde9eae-538a-4426-8ffa-1caad4e02a76', l='ServerLevel[world_nether]', x=36.30, y=55.00, z=153.70, cpos=[2, 9], tl=11050, v=true] died: Piglin Knight fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Knight'/837, uuid='41addc22-4802-4bf3-9ddb-57c0ae2da727', l='ServerLevel[world_nether]', x=36.30, y=55.00, z=155.70, cpos=[2, 9], tl=11050, v=true] died: Piglin Knight fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Knight'/838, uuid='c9c0e02b-88f7-43f4-9bbf-a0d5cce656c4', l='ServerLevel[world_nether]', x=37.70, y=73.00, z=154.70, cpos=[2, 9], tl=11050, v=true] died: Piglin Knight fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Archer'/839, uuid='68b0184e-fa46-4a8a-9406-7d8ed6a6c085', l='ServerLevel[world_nether]', x=42.67, y=83.00, z=154.70, cpos=[2, 9], tl=11050, v=true] died: Piglin Archer fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityHoglin['Dinnerbone'/891, uuid='39faaa3a-9578-43b0-892d-71607e735f42', l='ServerLevel[world_nether]', x=-21.50, y=49.00, z=169.25, cpos=[-2, 10], tl=10956, v=true] died: Dinnerbone fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Knight'/907, uuid='a0ceb656-2f17-4766-ae3c-ef47bea54726', l='ServerLevel[world_nether]', x=38.70, y=36.00, z=165.70, cpos=[2, 10], tl=10945, v=true] died: Piglin Knight fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Knight'/933, uuid='6ab9b424-fcbb-4360-b2b2-9eb78b40e747', l='ServerLevel[world_nether]', x=48.30, y=45.00, z=174.70, cpos=[3, 10], tl=10919, v=true] died: Piglin Knight fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Knight'/934, uuid='73b0b4f5-3b4a-454a-8922-51fcb827e953', l='ServerLevel[world_nether]', x=58.70, y=45.00, z=164.30, cpos=[3, 10], tl=10919, v=true] died: Piglin Knight fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityHoglin['Dinnerbone'/927, uuid='62757a28-f0f1-4049-9203-f25f19d1ad75', l='ServerLevel[world_nether]', x=53.25, y=49.00, z=139.50, cpos=[3, 8], tl=10916, v=true] died: Dinnerbone fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Paratrooper'/971, uuid='6e6ae172-e203-490e-b4e1-2f1e2a338c21', l='ServerLevel[world_nether]', x=-16.70, y=62.00, z=178.41, cpos=[-2, 11], tl=10801, v=true] died: Piglin Paratrooper fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Paratrooper'/979, uuid='b7899455-fcf6-4eac-b030-dc078c6a8f6d', l='ServerLevel[world_nether]', x=23.30, y=55.00, z=183.41, cpos=[1, 11], tl=10795, v=true] died: Piglin Paratrooper fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Archer'/980, uuid='e71f1596-1192-425a-855b-ee828986add5', l='ServerLevel[world_nether]', x=28.30, y=56.00, z=177.67, cpos=[1, 11], tl=10795, v=true] died: Piglin Archer fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Paratrooper'/981, uuid='c7044ecc-51ca-4c4c-b872-8655951dd173', l='ServerLevel[world_nether]', x=24.30, y=84.00, z=176.41, cpos=[1, 11], tl=10795, v=true] died: Piglin Paratrooper fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Paratrooper'/982, uuid='b24ae909-b73e-43fc-b86d-3882f95f36e8', l='ServerLevel[world_nether]', x=22.30, y=84.00, z=176.41, cpos=[1, 11], tl=10795, v=true] died: Piglin Paratrooper fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Knight'/987, uuid='3075dee3-c579-46ed-ab54-850ac3fe08f7', l='ServerLevel[world_nether]', x=36.30, y=37.00, z=182.30, cpos=[2, 11], tl=10789, v=true] died: Piglin Knight fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Knight'/990, uuid='38e045b5-79c3-4517-bc63-cb77bc6c5617', l='ServerLevel[world_nether]', x=53.70, y=36.00, z=180.70, cpos=[3, 11], tl=10787, v=true] died: Piglin Knight fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Knight'/991, uuid='98fb0415-bbd4-4919-8cd1-bdfa6e6b6be4', l='ServerLevel[world_nether]', x=53.70, y=36.00, z=188.70, cpos=[3, 11], tl=10787, v=true] died: Piglin Knight fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Knight'/1006, uuid='cd3ee753-1303-40ed-ab52-67af7cfe98f3', l='ServerLevel[world_nether]', x=68.30, y=36.00, z=135.30, cpos=[4, 8], tl=10759, v=true] died: Piglin Knight fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Paratrooper'/1005, uuid='3ed8455a-d518-42f6-a3f2-39a75c653fe6', l='ServerLevel[world_nether]', x=68.59, y=62.00, z=129.30, cpos=[4, 8], tl=10759, v=true] died: Piglin Paratrooper fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Knight'/1007, uuid='4ac16611-2981-4279-a6b6-03753c1c3940', l='ServerLevel[world_nether]', x=78.30, y=36.00, z=159.70, cpos=[4, 9], tl=10759, v=true] died: Piglin Knight fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Alchemist'/1008, uuid='29bd4b91-4e5c-4ad5-9c50-c0f894826ef4', l='ServerLevel[world_nether]', x=68.70, y=45.00, z=155.70, cpos=[4, 9], tl=10759, v=true] died: Piglin Alchemist fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Alchemist'/1009, uuid='e5447685-4e6a-46db-8a43-1ebaff089d35', l='ServerLevel[world_nether]', x=67.70, y=45.00, z=154.30, cpos=[4, 9], tl=10759, v=true] died: Piglin Alchemist fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Knight'/1010, uuid='8170c981-748f-499a-9371-a448fca0eb0e', l='ServerLevel[world_nether]', x=64.70, y=54.00, z=154.30, cpos=[4, 9], tl=10759, v=true] died: Piglin Knight fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Knight'/1011, uuid='90219215-2a84-484c-9f69-dc0e25e7ec6b', l='ServerLevel[world_nether]', x=72.70, y=54.00, z=154.30, cpos=[4, 9], tl=10759, v=true] died: Piglin Knight fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Knight'/1012, uuid='32338e37-2a18-4f98-996d-56aad6b454e3', l='ServerLevel[world_nether]', x=68.70, y=63.00, z=155.70, cpos=[4, 9], tl=10759, v=true] died: Piglin Knight fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Knight'/1013, uuid='4bc21ca0-e541-4c5e-94d2-4ccc53a52954', l='ServerLevel[world_nether]', x=71.30, y=63.00, z=151.70, cpos=[4, 9], tl=10759, v=true] died: Piglin Knight fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Knight'/1014, uuid='183f0769-1a14-4529-8167-7d3713a5cde2', l='ServerLevel[world_nether]', x=65.30, y=63.00, z=151.70, cpos=[4, 9], tl=10759, v=true] died: Piglin Knight fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Knight'/1018, uuid='b9ccf8cf-6186-450c-88d9-671fbe394d57', l='ServerLevel[world_nether]', x=68.70, y=36.00, z=186.30, cpos=[4, 11], tl=10759, v=true] died: Piglin Knight fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Paratrooper'/1017, uuid='1782f824-1a31-48e4-a5ff-28bb9eae940f', l='ServerLevel[world_nether]', x=78.70, y=62.00, z=184.59, cpos=[4, 11], tl=10759, v=true] died: Piglin Paratrooper fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Knight'/1016, uuid='3917fd17-2e74-4a89-a788-8c086e3b8d20', l='ServerLevel[world_nether]', x=66.30, y=55.00, z=171.30, cpos=[4, 10], tl=10759, v=true] died: Piglin Knight fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Paratrooper'/1089, uuid='2fc62215-ca3c-4aa8-aee6-40dcf9e25e04', l='ServerLevel[world_nether]', x=-16.70, y=62.00, z=198.41, cpos=[-2, 12], tl=10673, v=true] died: Piglin Paratrooper fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Archer'/1237, uuid='25131de0-567b-435b-aae3-4ef771621fd2', l='ServerLevel[world_nether]', x=-17.33, y=72.00, z=208.70, cpos=[-2, 13], tl=0, v=true] died: Piglin Archer fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Paratrooper'/1238, uuid='8489ec4f-14ae-46ea-a53f-0e4bd6a324e0', l='ServerLevel[world_nether]', x=-11.59, y=62.00, z=209.70, cpos=[-1, 13], tl=0, v=true] died: Piglin Paratrooper fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Paratrooper'/1239, uuid='0a291b75-bec0-4d73-88c8-559e3a2665ad', l='ServerLevel[world_nether]', x=-3.59, y=62.00, z=209.70, cpos=[-1, 13], tl=0, v=true] died: Piglin Paratrooper fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Archer'/1320, uuid='08d55047-29c8-45ff-b29f-b16ec225a26e', l='ServerLevel[world_nether]', x=32.70, y=72.00, z=225.33, cpos=[2, 14], tl=0, v=true] died: Piglin Archer fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Paratrooper'/1247, uuid='87f8250e-26a2-4a35-bc33-f46a79642963', l='ServerLevel[world_nether]', x=7.41, y=62.00, z=209.70, cpos=[0, 13], tl=0, v=true] died: Piglin Paratrooper fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Knight'/1248, uuid='dc4b5e22-85da-436a-a128-dde2e0a3e4bc', l='ServerLevel[world_nether]', x=11.30, y=62.00, z=209.30, cpos=[0, 13], tl=0, v=true] died: Piglin Knight fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Knight'/1249, uuid='96322e89-533e-4c9e-b7c6-121fd3a9fb21', l='ServerLevel[world_nether]', x=13.30, y=62.00, z=220.70, cpos=[0, 13], tl=0, v=true] died: Piglin Knight fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Archer'/1250, uuid='07d62230-6105-4aeb-9e83-f2fec1471f65', l='ServerLevel[world_nether]', x=12.67, y=72.00, z=223.70, cpos=[0, 13], tl=0, v=true] died: Piglin Archer fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Knight'/1114, uuid='c9ee0559-c725-4248-8832-c7d6fea51145', l='ServerLevel[world_nether]', x=47.70, y=36.00, z=193.30, cpos=[2, 12], tl=10661, v=true] died: Piglin Knight fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Knight'/1115, uuid='f708e7b7-b49d-4d8d-91aa-6619355c4315', l='ServerLevel[world_nether]', x=35.30, y=37.00, z=199.30, cpos=[2, 12], tl=10661, v=true] died: Piglin Knight fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Alchemist'/1116, uuid='2ae8398a-b164-4bdb-989a-20e1dad278c9', l='ServerLevel[world_nether]', x=40.70, y=37.00, z=204.30, cpos=[2, 12], tl=10661, v=true] died: Piglin Alchemist fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Alchemist'/1117, uuid='cff41762-46eb-46e0-80b8-c3b4dc6a31f9', l='ServerLevel[world_nether]', x=36.70, y=37.00, z=204.30, cpos=[2, 12], tl=10661, v=true] died: Piglin Alchemist fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Paratrooper'/1252, uuid='d56acef4-7c8d-41ed-bfcf-769d60dcad3b', l='ServerLevel[world_nether]', x=38.41, y=62.00, z=209.70, cpos=[2, 13], tl=0, v=true] died: Piglin Paratrooper fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Paratrooper'/1256, uuid='48245cdb-0d70-4887-bf2e-74248457ef06', l='ServerLevel[world_nether]', x=72.41, y=62.00, z=209.70, cpos=[4, 13], tl=0, v=true] died: Piglin Paratrooper fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Knight'/1148, uuid='bc2d9059-b3b0-4c92-b9bd-f3241f7f380b', l='ServerLevel[world_nether]', x=88.70, y=36.00, z=149.30, cpos=[5, 9], tl=10634, v=true] died: Piglin Knight fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Paratrooper'/1149, uuid='3fe206b6-407d-40e1-8a37-007ba2180c89', l='ServerLevel[world_nether]', x=93.70, y=62.00, z=154.59, cpos=[5, 9], tl=10634, v=true] died: Piglin Paratrooper fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Paratrooper'/1150, uuid='62423b88-972c-4e2c-ac4c-8759eff6819e', l='ServerLevel[world_nether]', x=93.70, y=62.00, z=157.59, cpos=[5, 9], tl=10634, v=true] died: Piglin Paratrooper fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Paratrooper'/1151, uuid='11550047-2194-466e-aaec-753b06b24be8', l='ServerLevel[world_nether]', x=93.70, y=62.00, z=148.59, cpos=[5, 9], tl=10634, v=true] died: Piglin Paratrooper fell out of the world
+[17:07:55] [Server thread/INFO]: Named entity EntityPiglinBrute['Piglin Knight'/1155, uuid='a4d2c812-c79a-4ff6-acd9-633c46340f22', l='ServerLevel[world_nether]', x=85.30, y=36.00, z=139.30, cpos=[5, 8], tl=10634, v=true] died: Piglin Knight fell out of the world
+[17:08:09] [User Authenticator #3/INFO]: UUID of player PavoLoco is 662dc439-e156-363e-a35c-7bb67826e6e2
+[17:08:09] [Server thread/INFO]: PavoLoco joined the game
+[17:08:09] [Server thread/INFO]: PavoLoco[/127.226.223.37:43807] logged in with entity id 4314 at ([world]-68.5, 79.0, 46.5)
+[17:08:37] [Server thread/INFO]: PavoLoco tried to swim in lava to escape denercraft
+[17:09:41] [Server thread/INFO]: denercraft has made the advancement [Stone Age]
+[17:10:32] [Server thread/INFO]: PavoLoco has made the advancement [Stone Age]
+[17:11:13] [Server thread/INFO]: Lucio_tdt has made the advancement [Acquire Hardware]
+[17:11:34] [Server thread/INFO]: denercraft issued server command: /tp PavoLoco
+[17:11:34] [Server thread/INFO]: [denercraft: Teleported denercraft to PavoLoco]
+[17:12:11] [Server thread/INFO]: PavoLoco has made the advancement [Getting an Upgrade]
+[17:14:00] [Server thread/INFO]: PavoLoco has made the advancement [Acquire Hardware]
+[17:14:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7947ms or 158 ticks behind
+[17:14:38] [Server thread/INFO]: denercraft issued server command: /tp PavoLoco Lucio_tdt
+[17:14:38] [Server thread/INFO]: [denercraft: Teleported PavoLoco to Lucio_tdt]
+[17:14:46] [Server thread/INFO]: denercraft issued server command: /tp denercraft Lucio_tdt
+[17:14:46] [Server thread/INFO]: [denercraft: Teleported denercraft to Lucio_tdt]
+[17:17:11] [Server thread/INFO]: PavoLoco has made the advancement [Isn't It Iron Pick]
